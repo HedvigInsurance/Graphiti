@@ -6,8 +6,8 @@
         "repositoryURL": "https://github.com/vapor/core.git",
         "state": {
           "branch": null,
-          "revision": "2731f8ba0cf274a61c9bd6ab43550f692ffaf879",
-          "version": "3.9.0"
+          "revision": "c64f63cb21631010952f7abfef719d376ab6a441",
+          "version": "3.9.1"
         }
       },
       {
@@ -21,9 +21,9 @@
       },
       {
         "package": "GraphQL",
-        "repositoryURL": "https://github.com/HedvigInsurance/GraphQL.git",
+        "repositoryURL": "https://github.com/GraphQLSwift/GraphQL.git",
         "state": {
-          "branch": "master",
+          "branch": null,
           "revision": "1c9e24fa43f26826fc2d42d875f8fe611d25bf35",
           "version": null
         }
