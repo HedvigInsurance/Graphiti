@@ -23,9 +23,9 @@
         "package": "GraphQL",
         "repositoryURL": "https://github.com/HedvigInsurance/GraphQL.git",
         "state": {
-          "branch": null,
-          "revision": "93f493739f8eee5b6c83028a044e4e72a9022cd8",
-          "version": "1.0.0"
+          "branch": "master",
+          "revision": "1c9e24fa43f26826fc2d42d875f8fe611d25bf35",
+          "version": null
         }
       },
       {
