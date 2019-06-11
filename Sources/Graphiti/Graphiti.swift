@@ -1,4 +1,3 @@
-import protocol GraphQL.MapFallibleRepresentable
 @_exported import enum GraphQL.Map
 @_exported import enum GraphQL.MapError
 
@@ -9,8 +8,8 @@ final class AnyType : Hashable {
         self.type = type
     }
 
-    var hashValue: Int {
-        return String(describing: type).hashValue
+    func hash(into hasher: inout Hasher) {
+        hasher.combine(String(describing: type))
     }
 
     static func == (lhs: AnyType, rhs: AnyType) -> Bool {
@@ -45,15 +44,15 @@ func fixName(_ name: String) -> String {
 }
 
 
-func isMapFallibleRepresentable(type: Any.Type) -> Bool {
+func isEncodable(type: Any.Type) -> Bool {
     if isProtocol(type: type) {
         return true
     }
 
     if let type = type as? Wrapper.Type {
-        return isMapFallibleRepresentable(type: type.wrappedType)
+        return isEncodable(type: type.wrappedType)
     }
 
-    return type is MapFallibleRepresentable.Type
+    return type is Encodable.Type
 }
 
