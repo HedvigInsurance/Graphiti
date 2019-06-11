@@ -2,6 +2,15 @@
   "object": {
     "pins": [
       {
+        "package": "Core",
+        "repositoryURL": "https://github.com/vapor/core.git",
+        "state": {
+          "branch": null,
+          "revision": "c64f63cb21631010952f7abfef719d376ab6a441",
+          "version": "3.9.1"
+        }
+      },
+      {
         "package": "CRuntime",
         "repositoryURL": "https://github.com/wickwirew/CRuntime.git",
         "state": {
@@ -15,8 +24,8 @@
         "repositoryURL": "https://github.com/GraphQLSwift/GraphQL.git",
         "state": {
           "branch": null,
-          "revision": "cba343ae0809fc407946f3538c7b80fc94bd5244",
-          "version": "0.11.0"
+          "revision": "1c9e24fa43f26826fc2d42d875f8fe611d25bf35",
+          "version": null
         }
       },
       {
